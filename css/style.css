@@ -1,0 +1,207 @@
+/* common style  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container{
+    margin: 100px auto;
+    width: 65%;
+}
+
+h2{
+    font-size: 28px;
+    width: 288px;
+}
+
+button{
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+    background: #fff;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover{
+    background: #005FAC;
+    color: #fff;
+}
+/* Header styling  */
+header{
+    background: url('../images/banner/banner3.png');
+    background-position: center;
+    background-size: contain;
+    padding: 135px 160px;
+    color: #fff;
+}
+
+.banner{
+    width: 35%;
+    text-align: right;
+    margin-left: 600px;
+}
+
+.banner h1{
+    font-size: 45px;
+    margin-bottom: 17px;
+}
+
+.banner p{
+    font-size: 11.5px;
+    line-height: 1.5em;
+    margin-bottom: 22.5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* failure section styling  */
+.failure{
+    display: flex;
+    /* margin: 100px 0; */
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+} 
+
+.failure .failure-img{
+    width: 100%;
+} 
+
+.failure .failure-img img{
+    width: 100%;
+}
+
+.failure .failure-text p{
+    font-size: 12px;
+    line-height: 1.5em;
+    width: 416px;
+}
+.failure .failure-text ul {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 1.75em;
+    width: 416px;
+    padding: 0;
+}
+
+.failure .failure-text ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    color: #16D887;
+    font-weight:700;
+    padding-right: 5px;
+    /* 
+    font-weight: 700;
+    display: inline-block;
+    padding-right: 5px;
+    width: 1em; */
+}
+
+/* Plan Section Styling  */
+.scetion-heading{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.scetion-heading h2{
+    margin-bottom: 40px;
+}
+
+#plan .plan-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#plan .plan-container .plan-item{
+    text-align: center;
+}
+
+.plan-container .plan-img{
+    max-width: 93px;
+    width: 65px;
+    margin: 0 auto;
+}
+
+.plan-container .plan-img img{
+    width: 100%;
+}
+
+/* mindset section styling  */
+.mind-container{
+    background: linear-gradient(to right, rgb(0, 95, 172, 0.8), rgba(116, 124, 151, 0.2)), url('../images/watch.png');
+    border-radius: 10px;
+}
+
+.mindset{
+    padding: 40px;
+}
+   
+.mindset h2{
+    color: #fff;
+    margin-top: 0;
+}
+
+/* footer styling  */
+footer{
+    background-color: #000;
+    color: #F8F8F8;
+}
+.footer-info{
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    margin-bottom: 0;
+}
+
+.footer-text{
+    width: 340px;
+    max-width: 485px;
+}
+.footer-text h2{
+    margin-bottom: 14px;
+}
+.footer-text p{
+    font-size: 10px;
+    line-height: 1.5em;
+    margin-bottom: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-text .social-icons {
+    margin-top: 20px;
+}
+
+.footer-text .social-icons a{
+    margin-right: 10px;
+}
+
+.subscribe h5{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.subscribe input {
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #f8f8f8;
+    padding: 13px 20px;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.subscribe button{
+    background-color:#005FAC;
+    color: #F8F8F8;
+    font-size: 14px;
+}
